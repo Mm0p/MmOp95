@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+.title {
+	color: white;
+	background: #000080;
+	padding: 2px;
+	padding-left: 5px;
+	z-index: 10;
+	text-align: left;
+	cursor: move;
+	font-size: 20px;
+	padding-bottom: 7px;
+	margin: 0;
+	padding-top: 6px;
+}
+.writing {
+	background: white;
+	border: black solid 2px;
+	margin-top: 28px;
+	margin-right: 10px;
+	min-height: 430px;
+	min-width: 420px;
+	vertical-align: top;
+	text-align: left;
+	font-family: 'VT323', monospace;
+	border-top: black 2px solid;
+	border-left: black 2px solid;
+	border-right: gray 2px solid;
+	border-bottom: gray 2px solid;
+	box-shadow: 2px 2px 2px white;
+	font-size: 20px;
+}
+.editor {
+	background: #c0c0c0;
+	margin: 5px;
+	position: absolute;
+	padding: 2px 2px 6px 2px;
+	border-top: white 2px solid;
+	border-left: white 2px solid;
+	border-right: black 2px solid;
+	border-bottom: black 2px solid;
+	min-height: 430px;
+	width: 430px;
+	z-index: 9;
+	right: 0px;
+	display: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+textarea {
+	resize: none;
+}
+.fileBtn:focus {
+	outline: none;
+}
+#header {
+	position: absolute;
+ 	display: absolute;
+ 	margin: 2px 2px 2px 0px;
+ 	height: 20px;
+ 	background-color: #c0c0c0;
+}
+.fileBtn {
+	border: solid #c0c0c0 2px;
+	background-color: #c0c0c0;
+	letter-spacing: 0px;
+	font-family: 'VT323', monospace;
+	font-size: 17px;
+}
+.fileClass:hover .fileBtn {
+	background: #000080;
+	color: white;
+	border: solid #000080 2px;
+}
+.fileClass:hover {
+	background: #000080;
+}
+.fileClass {
+  	position: absolute;
+  	display: absolute;
+  	padding: 3px;
+  	padding-top: 0px;
+  	float: left;
+}
+.fileContent {
+  	display: none;
+  	position: absolute;
+  	background-color: #c0c0c0;
+  	margin-left: 3px;
+  	margin-top: 2px;
+  	border-top: white 2px solid;
+	border-left: white 2px solid;
+	border-right: black 2px solid;
+	border-bottom: black 2px solid;
+}
+.fileContent a {
+  	color: black;
+  	padding: 2px 3px;
+  	text-decoration: none;
+  	display: block;
+  	float: left;
+  	min-width: 50px;
+}
+.fileClass:hover .fileContent {
+  	display: block;
+}
+.fileContent a:hover {
+	background-color: #000080; 
+	color: white;
+}
+.fontClass {
+	padding-left: 57px;
+	padding-top: 3px;
+	float: left;
+	font-size: 17px;
+}
+.fontNum {
+	width: 33px;
+	background-color: white;
+	margin-left: 3px;
+	margin-bottom: 1px;
+	border-top: black 2px solid;
+	border-left: black 2px solid;
+	border-right: gray 2px solid;
+	border-bottom: gray 2px solid;
+}
+.fontNum:focus {
+	outline: none;
+}
+.closeButton {
+	float: right;
+	margin-right: 5px;
+	padding: 0px 7px;
+	background: #c0c0c0;
+	border-top: black 2px solid;
+	border-left: black 2px solid;
+	border-right: gray 2px solid;
+	border-bottom: gray 2px solid;
+	color: black;
+	padding-bottom: 2px;
+	font-size: 17px;
+}
+.closeButton:hover {
+	background: #737373;
+	cursor: pointer;
+}

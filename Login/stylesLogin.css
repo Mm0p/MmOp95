@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+.newWindow {
+	padding: 1px;
+	border-top: solid #f5f5f5 2px;
+	border-left: solid #f5f5f5 2px;
+	border-bottom: solid #424242 2px;
+	border-right: solid #424242 2px;
+	margin: 20px;
+	float: center;
+	background: #c0c0c0;
+}
+#headerWindow {
+	background: #000080;
+	color: white;
+}
+#headerWindow p {
+	margin: 0 auto;
+	text-align: left;
+	padding: 2px 5px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'VT323', monospace;
+}
+#windowContent {
+	padding-bottom: 20px;
+}
+
+#windowContent p {
+	text-align: left;
+}
+#windowContent p,
+#windowContent label {
+	letter-spacing: 0.5px;
+	font-family: 'VT323', monospace;
+}
+
+#windowContent img {
+	max-width: 70px;
+	max-height: auto;
+	float: left;
+	padding: 0px 20px;
+}
+.inputPass {
+	border-top: solid black 2px;
+	border-left: solid black 2px;
+	border-right: solid #c0c0c0 2px;
+	border-bottom: solid #c0c0c0 2px;
+	box-shadow: 1px 1px white;
+	width: 250px;
+}
+.submitButton {
+	float: right;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+.buttonItself {
+	width: 80px;
+	height: 30px;
+	border-top: solid white 1px;
+	border-left: solid white 1px;
+	box-shadow: 1px 1px 2px black, -1px 1px black, 1px -1px black, -1px -1px black;
+	background-color: #c0c0c0;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-family: 'VT323', monospace;
+}
+.loginDetails {
+	padding-right: 40px;
+}
+input:focus {
+	outline: none;
+}
+.inputPass {
+	font-family: 'VT323', monospace;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+}

@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body {
+	text-align: center;
+	margin: 50px 400px 0px 400px;
+	background: #008181;
+	font-family: 'VT323', monospace;
+}

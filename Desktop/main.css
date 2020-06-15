@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body {
+	background: #008181;
+	font-family: 'VT323', monospace;
+	font-weight: 100;
+}
+.taskBar {
+  	background: #c0c0c0;
+  	color: black;
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+  	left: 0;
+  	text-align: center;
+  	padding: 5px;
+  	padding-top: 4px;
+  	padding-bottom: 3px;
+  	border-top: solid 2px #dbdbdb;
+  	font-family: 'VT323', monospace;
+}
+.taskBar img {
+	max-width: 24px;
+	float: left;
+	padding-right: 5px;
+}
+.nameTask {
+	float: left;
+	border: solid black 2px;
+	font-size: 22px;
+	padding: 2px 7px 3px 7px;
+	border-top: solid #c0c0c0 2px;
+	border-left: solid #c0c0c0 2px;
+	border-right: solid black 2px;
+	border-bottom: solid black 2px;
+	box-shadow: -1px -1px white;
+}
+.nameTask:hover {
+  	background: #9c9c9c;
+}
+.appTask {
+	float: left;
+	border: solid black 2px;
+	font-size: 22px;
+	padding: 2px 7px 3px 7px;
+	border-top: solid #c0c0c0 2px;
+	border-left: solid #c0c0c0 2px;
+	border-right: solid black 2px;
+	border-bottom: solid black 2px;
+	box-shadow: -1px -1px white;
+	margin-left: 2px;
+	width: 200px;
+	text-align: left;
+}
+.appTask:hover {
+  	background: #9c9c9c;
+}
+.timeTask {
+	float: right;
+	border: solid black 2px;
+	font-size: 22px;
+	padding: 2px 7px 3px 7px;
+	border-top: solid #737373 2px;
+	border-left: solid #737373 2px;
+	border-right: solid white 2px;
+	border-bottom: solid white 2px;
+	margin-left: 20px;
+	margin-right: 10px;
+	text-align: left;
+}
+.timeTask:hover {
+  	background: #9c9c9c;
+}
+.seperator {
+	max-height: 31px;
+}
