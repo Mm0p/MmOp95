@@ -9,24 +9,18 @@ date_default_timezone_set('Australia/Melbourne');
 <link rel="stylesheet" type="text/css" href="main.css">
 <link rel="stylesheet" type="text/css" href="textEdit.css">
 <link rel="stylesheet" type="text/css" href="saveWindow.css">
-<link rel="stylesheet" type="text/css" href="appNav.css">
 <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
 <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 <body>
-	<div class="totalNav">
 	<div class="taskBar" id="bottomtaskBar">
-  		<div class="nameTask" onmouseover="appNav()"> <img src="../Img/logo.png"><?php 
+  		<div class="nameTask"> <img src="../Img/logo.png"><?php 
   			echo "$nameTask";
   		 ?> </div>
   		<img class="seperator" src="../Img/seperators.png">
-  		<div class="appTask" onclick="openNote()" id="notePadTask"><img src="../Img/notepad.png">Notepad</div>
+  		<div class="appTask" onclick="openNote()"><img src="../Img/notepad.png">Notepad</div>
+  		<img class="seperator" src="../Img/seperators.png">
   		<div class="timeTask"><img src="../Img/speaker.png"><?php echo date("h:ia"); ?> </div>
-	</div>
-	<div class="appNav" id="appNavID" onmouseleave="appNavLeave()">
-			<div class="NavText"><em>MmOp</em>95</div>
-			<div class="appNavChoice" onclick="openNote()"><img src="../Img/notepad.png">Notepad</div>
-		</div>
 	</div>
 
     <div class="saveWindow" id="saveID">
@@ -65,20 +59,11 @@ date_default_timezone_set('Australia/Melbourne');
     <textarea class="writing" id="notepadField" name="noteContent" form="notepadSaveForm"></textarea>
   </div>
 <script>
-function appNavLeave(){
-	document.getElementById("appNavID").style.display = "none";
-}
-function appNav(){
-	document.getElementById("appNavID").style.display = "inline";
-}
 function openNote(){
   document.getElementById("editorID").style.display = "inline";
-  document.getElementById("appNavID").style.display = "none";
-  document.getElementById("notePadTask").style.display = "inline";
 }
 function closeNote(){
   document.getElementById("editorID").style.display = "none";
-  document.getElementById("notePadTask").style.display = "none";
 }
 function openSave(){
   document.getElementById("saveID").style.display = "inline";

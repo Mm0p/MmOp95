@@ -1,0 +1,45 @@
+.appNav {
+	background: #c0c0c0;
+	width: 230px;
+	height: 300px;
+	padding: 2px;
+	position: absolute;
+	bottom: 42px;
+	left: 0px;
+	display: none;
+	border-top: solid white 2px;
+	border-left: solid white 2px;
+	border-right: solid #737373 2px;
+	border-bottom: solid #737373 2px;
+}
+.appNav img {
+	max-width: 20px;
+	padding: 2px;
+	vertical-align: middle;
+}
+.NavText {
+	float: left;
+	writing-mode: vertical-rl;
+	text-orientation: sideways;
+	background: gray;
+	padding: 2px;
+	padding-top: 10px;
+	font-size: 25px;
+	height: 99%;
+	color: #c0c0c0;
+	letter-spacing: 2px;
+	height: 96%;
+}
+.appNavChoice {
+	padding: 5px;
+	padding-left: 35px;
+	background: #c0c0c0;
+	font-size: 20px;
+}
+.appNavChoice:hover {
+	background: #000080;
+	color: #c0c0c0;
+}
+.appTask {
+	display: none;
+}

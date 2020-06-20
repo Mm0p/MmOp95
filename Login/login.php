@@ -20,7 +20,7 @@
 				<label for="uName">Username:</label>
   				<input class="inputPass" type="text" id="uName" name="uName" placeholder="username"><br><br>
   				<label for="uPass">Password:</label>
-  				<input class="inputPass" type="password" id="uPass" name="uPass" placeholder="password"><br>
+  				<input class="inputPass" type="password" id="uPass" name="uPass" placeholder="password" maxlength="20"><br>
 				</form>
 			</div>
 		</div>
