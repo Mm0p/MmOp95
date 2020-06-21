@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body {
+	font-family: 'VT323', monospace;
+}
+.AesWindow {
+	background: #c0c0c0;
+	margin: 5px;
+	position: absolute;
+	padding: 2px 2px 6px 2px;
+	border-top: white 2px solid;
+	border-left: white 2px solid;
+	border-right: black 2px solid;
+	border-bottom: black 2px solid;
+	min-height: 200px;
+	width: 700px;
+	z-index: 9;
+	display: none;
+}
+.AesTitle {
+	color: white;
+	background: #000080;
+	padding: 2px;
+	padding-left: 5px;
+	z-index: 10;
+	text-align: left;
+	cursor: move;
+	font-size: 20px;
+	padding-bottom: 7px;
+	margin: 0;
+	padding-top: 6px;
+	font-family: 'VT323', monospace;
+	height: 15px;
+	display: relative;
+}
+.AesTitle h1 {
+	font-size: 20px;
+	margin: 0;
+}
+.AesLeft {
+	float: left;
+	width: 70px;
+	display: grid;	
+	grid-template-columns: auto auto;
+	padding: 8px;
+	position: absolute;
+}
+.AesLeft p {
+	border-top: white 2px solid;
+	border-left: white 2px solid;
+	border-right: black 2px solid;
+	border-bottom: black 2px solid;
+	text-align: center;
+	margin: 0px 0px;
+	height: 27px;
+}
+.AesLeft p:hover {
+	background: darkgray;
+}
+.AesLeft p:active {
+	border-top: black 2px solid;
+	border-left: black 2px solid;
+	border-right: white 2px solid;
+	border-bottom: white 2px solid;
+}
+.AesVideo {
+	margin: 2px;
+	margin-left: 84px;
+	padding-left: 0px;
+	max-width: 608px;
+	height: 342px;
+	position: relative;
+	border-top: black 2px solid;
+	border-left: black 2px solid;
+	border-right: white 2px solid;
+	border-bottom: white 2px solid;
+}
+.gif1 {
+	max-width: 250px;
+	padding-left: 29%;
+	padding-top: 120px;
+	position: absolute;
+}
+.gif2 {
+	max-width: 100%;
+	position: absolute;
+}
+.gif3 {
+	opacity: 0.5;
+	position: absolute;
+	padding-top: 245px;
+	max-width: 222px;
+	padding-left: 31%
+}
+.AescloseButton {
+	float: right;
+	margin-right: 8px;
+	padding: 0px 7px;
+	margin-top: 2px;
+	background: #c0c0c0;
+	border-top: black 2px solid;
+	border-left: black 2px solid;
+	border-right: gray 2px solid;
+	border-bottom: gray 2px solid;
+	color: black;
+	padding-bottom: 2px;
+	font-size: 17px;
+}
+.AescloseButton:hover {
+	background: #737373;
+	cursor: pointer;
+}
+#AesPlayPause {
+	top: 20px;
+	padding-top: 20px;
+}
+#AesPlayPause p {
+	padding-top: 5px;
+}
+.songTitle {
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 7px;
+	width: 64px;
+	text-align: center;
+	padding: 2px;
+	font-size: 14px;
+	border-top: black 2px solid;
+	border-left: black 2px solid;
+	border-right: white 2px solid;
+	border-bottom: white 2px solid;
+}
+#AestheticTask img {
+	max-height: 21px;
+}
+#videoIDGif {
+	opacity: 0;
+}

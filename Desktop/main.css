@@ -19,7 +19,7 @@ body {
   	font-family: 'VT323', monospace;
 }
 .taskBar img {
-	max-width: 24px;
+	max-height: 20px;
 	float: left;
 	padding-right: 5px;
 }
@@ -47,9 +47,10 @@ body {
 	border-right: solid black 2px;
 	border-bottom: solid black 2px;
 	box-shadow: -1px -1px white;
-	margin-left: 2px;
+	margin-left: 10px;
 	width: 200px;
 	text-align: left;
+	position: inline;
 }
 .appTask:hover {
   	background: #9c9c9c;
@@ -72,4 +73,6 @@ body {
 }
 .seperator {
 	max-height: 31px;
+}
+.appTask img {
 }

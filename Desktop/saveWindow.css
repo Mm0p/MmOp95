@@ -14,7 +14,8 @@
 }
 .saveWindowHeader {
 	background: #000080;
-	color: white;	
+	color: white;
+	cursor: move;	
 }
 .saveWindowHeader p {
 	margin: 0 auto;
